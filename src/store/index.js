@@ -2,26 +2,7 @@ import { createSlice, configureStore } from "@reduxjs/toolkit";
 
 // Initial state with todos and selectedTodo
 const initialTodoState = {
-  todos: [
-    { title: "title 1", description: "this is some dummy text....1" },
-    { title: "title 2", description: "this is some dummy text....2" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-    { title: "title 3", description: "this is some dummy text....3" },
-  ],
+  todos: [],
   selectedTodo: 0,
 };
 
