@@ -16,7 +16,6 @@ font-family: sans-serif;
     justify-content: space-between;
 }
 .container .right{ 
-    /* border: 2px solid #fff; */
     display: flex;
     width: 60%;
     align-items: center;
